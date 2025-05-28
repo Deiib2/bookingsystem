@@ -1,5 +1,5 @@
 import '../styles/Nav.css'
-import {useNavigate} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 import '../Pages/Home'
 import logo from '../Assets/paperplane_logo.svg'
 export default function Nav (){
@@ -15,7 +15,7 @@ export default function Nav (){
             <img src={logo} style={{width:50, height:50, marginRight:20}} />
             <h2>YOUR LOGO <br></br><span className='airline'>AIRLINE</span></h2>
             <ul className='nav-options'>
-                <li><a href="/" className='nav-list'>Home</a></li>
+                <li><Link href="/" className='nav-list'>Home</Link></li>
                 <li><a href="#deals" className='nav-list'>Deals</a></li>
                 <li><a href="#offers" className='nav-list'>Offers</a></li>
                 <li><a href="#community" className='nav-list'>Community</a></li>

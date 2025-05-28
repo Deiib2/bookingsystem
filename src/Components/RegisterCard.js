@@ -3,7 +3,7 @@ import Lottie from "lottie-react";
 import ap from '../lotties/Animation - 1714335733825.json'
 import '../styles/Login.css'
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { BASENAME } from '../constants';
 export default function RegisterCard (){
     const [username, setUsername] = useState('')
@@ -42,8 +42,8 @@ export default function RegisterCard (){
             <button className='login-btn' onClick={handleRegister}>Create Account</button>
             </div>
            <div className='sign'>
-                <a className='have-acc' href=''>I have an Account</a>
-                <a className='sign-in' href={`${BASENAME}/login`}>SIGN IN</a>
+                <a className='have-acc'>I have an Account</a>
+                <Link className='sign-in' to='/login'>SIGN IN</Link>
             </div>
             </div>
             </form>

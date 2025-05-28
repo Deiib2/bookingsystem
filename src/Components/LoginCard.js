@@ -2,7 +2,7 @@ import Lottie from "lottie-react";
 import ap from '../lotties/Animation - 1714335733825.json'
 import '../styles/Login.css'
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { BASENAME } from "../constants";
 export default function LoginCard (){
     const [email, setEmail] = useState('')
@@ -18,7 +18,7 @@ export default function LoginCard (){
             <Lottie loop={true} animationData={ap} style={{height: 100}}/>
             </div>
             
-            <h2>YOUR FAVOURITE <br></br><span className='airline'>TEXTEDITOR</span></h2>
+            <h2>YOUR FAVOURITE <br></br><span className='airline'>AIRLINES</span></h2>
             
             </div>
             <div className='login-form'>
@@ -26,22 +26,20 @@ export default function LoginCard (){
             <form>
             <label>Email:</label>
             <input 
-                name="email" 
-                placeholder='nournader@gmail.com'
+                name="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
             />
             <label>Password:</label>
             <input 
                 name="password" 
-                type='password' 
-                placeholder='********'
+                type='password'
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
             />
-            <a className='forgot' href=''>forgot password?</a>
+            <a className='forgot'>forgot password?</a>
             <button className='login-btn' onClick={handleLogin}>Login</button>
-            <a className='forgot center' href={`${BASENAME}/register`}>CREATE ACCOUNT!</a>
+            <Link className='forgot center' to='/register'>CREATE ACCOUNT!</Link>
             </form>
             </div>
         </div>
