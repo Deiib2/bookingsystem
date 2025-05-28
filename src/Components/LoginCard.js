@@ -3,6 +3,7 @@ import ap from '../lotties/Animation - 1714335733825.json'
 import '../styles/Login.css'
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { BASENAME } from "../constants";
 export default function LoginCard (){
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -40,7 +41,7 @@ export default function LoginCard (){
             />
             <a className='forgot' href=''>forgot password?</a>
             <button className='login-btn' onClick={handleLogin}>Login</button>
-            <a className='forgot center' href='/register'>CREATE ACCOUNT!</a>
+            <a className='forgot center' href={`${BASENAME}/register`}>CREATE ACCOUNT!</a>
             </form>
             </div>
         </div>

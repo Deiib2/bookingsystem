@@ -9,6 +9,7 @@ import Payments from "./Pages/Payments";
 import Tickets from "./Pages/Tickets";
 import UserDocuments from "./Components/UserDocuments"; 
 import DocumentEditor from "./Components/DocumentEditor";
+import { BASENAME } from './constants';
 const dummyUserDocs = [ // Dummy data for user documents
   { id: 1, name: 'Document 1', owner: true },
   { id: 2, name: 'Document 2', owner: true },
@@ -43,7 +44,7 @@ const App = () => {
     console.log('Opening document:', id);
   };
   return (
-      <BrowserRouter basename='/bookingsystem'>
+      <BrowserRouter basename= {BASENAME}>
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
