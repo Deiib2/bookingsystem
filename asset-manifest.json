@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/bookingsystem/static/css/main.51e4a0c1.css",
+    "main.js": "/bookingsystem/static/js/main.8a573da7.js",
+    "static/js/453.9b81a340.chunk.js": "/bookingsystem/static/js/453.9b81a340.chunk.js",
+    "static/media/Nour shitty concept.png": "/bookingsystem/static/media/Nour shitty concept.bcc45ae799cc83422e91.png",
+    "static/media/Group 162.png": "/bookingsystem/static/media/Group 162.fcb55e9a023d0c3f1877.png",
+    "static/media/philipp-kammerer-6Mxb_mZ_Q8E-unsplash.png": "/bookingsystem/static/media/philipp-kammerer-6Mxb_mZ_Q8E-unsplash.8d8426d5de974d763f18.png",
+    "static/media/Mask Group 3.png": "/bookingsystem/static/media/Mask Group 3.a0071a566f39ba02fe5a.png",
+    "static/media/Capture.png": "/bookingsystem/static/media/Capture.6333003ff65fb25d2fd6.png",
+    "static/media/FPfoih01.png": "/bookingsystem/static/media/FPfoih01.4fe6822c46de9985e898.png",
+    "static/media/airplane-ticket.svg": "/bookingsystem/static/media/airplane-ticket.d237a9f581e2087e305a45f442a8b9b8.svg",
+    "static/media/_x35_.svg": "/bookingsystem/static/media/_x35_.6e92e3dd4a5b4e3856ea74db67272553.svg",
+    "static/media/grey_airplane.svg": "/bookingsystem/static/media/grey_airplane.44817bacdd48df469ffedfbae9654a6c.svg",
+    "static/media/Barcode.svg": "/bookingsystem/static/media/Barcode.ee8aacba4db060b4318bec54a376f8d8.svg",
+    "static/media/fire.svg": "/bookingsystem/static/media/fire.c9f2dd38abee6941b1dcddb3a898485f.svg",
+    "static/media/Your-Airlines.svg": "/bookingsystem/static/media/Your-Airlines.db5ca3b49c21038a9dd0b6720e2e81eb.svg",
+    "static/media/calendar.svg": "/bookingsystem/static/media/calendar.72fcadaebfef3f999c9a4d86500ea4c6.svg",
+    "static/media/purpcalender.svg": "/bookingsystem/static/media/purpcalender.94841bb3746d1946a0b9181be5020d80.svg",
+    "index.html": "/bookingsystem/index.html",
+    "static/media/airplane-takeoff.svg": "/bookingsystem/static/media/airplane-takeoff.42070c99abb8ebcd50f2ce5964c89e1f.svg",
+    "static/media/airplane-landing.svg": "/bookingsystem/static/media/airplane-landing.f4f37b2070113583c9486db693f428be.svg",
+    "static/media/paperplane_logo.svg": "/bookingsystem/static/media/paperplane_logo.d9159eab73b6640403b9e54004f7fa17.svg",
+    "static/media/Small_white_airplane.svg": "/bookingsystem/static/media/Small_white_airplane.3da9a9e5fc9818319701f334b3c1c6db.svg",
+    "static/media/Icon feather-heart.svg": "/bookingsystem/static/media/Icon feather-heart.47a565f3c4586c01b2095ed1e936d62e.svg",
+    "static/media/purple_heart.svg": "/bookingsystem/static/media/purple_heart.8bb8cef9e22aba935a1fb0ecdca99e2b.svg",
+    "static/media/search-icon.svg": "/bookingsystem/static/media/search-icon.f7d1b0149a5137d2a56318898d68fb28.svg",
+    "main.51e4a0c1.css.map": "/bookingsystem/static/css/main.51e4a0c1.css.map",
+    "main.8a573da7.js.map": "/bookingsystem/static/js/main.8a573da7.js.map",
+    "453.9b81a340.chunk.js.map": "/bookingsystem/static/js/453.9b81a340.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51e4a0c1.css",
+    "static/js/main.8a573da7.js"
+  ]
+}
