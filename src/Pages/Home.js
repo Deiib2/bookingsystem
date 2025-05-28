@@ -13,7 +13,7 @@ export default function Home() {
                 <About />
                 <FlightSearch />
                 <Deals id="deals"/>
-                <Offers />
+                <Offers id ="offers"/>
             </div>
             <Footer/>
         </div>

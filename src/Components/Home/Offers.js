@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import offerPic from '../../Assets/philipp-kammerer-6Mxb_mZ_Q8E-unsplash.png'
 import gifticon from'../../Assets/gift.png'
-export default function Offers (){
+export default function Offers ({id}){
     const [offersList, setOffersList] = useState([])
 
     useEffect(()=>{
@@ -24,7 +24,7 @@ export default function Offers (){
     },[])
     return(
         <>
-            <div className="offers-header"><img src={gifticon} style={{height:25,width:25, marginRight:10, position:"relative",top:5}}/>Offers</div>
+            <div id={id} className="offers-header"><img src={gifticon} style={{height:25,width:25, marginRight:10, position:"relative",top:5}}/>Offers</div>
             <div className="offers-container">
                 {offersList.map((offer) => (
                     <div className="offer">

@@ -17,8 +17,8 @@ export default function Nav (){
             <ul className='nav-options'>
                 <li><a href="/" className='nav-list'>Home</a></li>
                 <li><a href="#deals" className='nav-list'>Deals</a></li>
-                <li><a href="" className='nav-list'>Offers</a></li>
-                <li><a href="" className='nav-list'>Community</a></li>
+                <li><a href="#offers" className='nav-list'>Offers</a></li>
+                <li><a href="#community" className='nav-list'>Community</a></li>
                 <li><button className="sign-up-btn" onClick={handleSignUp}>Sign up</button></li>
                 <li><button className="login-btn-nav" onClick={handleLogin}>Login</button></li>
             </ul>
