@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bookingsystem/static/css/main.51e4a0c1.css",
-    "main.js": "/bookingsystem/static/js/main.8a07b383.js",
+    "main.js": "/bookingsystem/static/js/main.03cc89ba.js",
     "static/js/453.9b81a340.chunk.js": "/bookingsystem/static/js/453.9b81a340.chunk.js",
     "static/media/Nour shitty concept.png": "/bookingsystem/static/media/Nour shitty concept.bcc45ae799cc83422e91.png",
     "static/media/Group 162.png": "/bookingsystem/static/media/Group 162.fcb55e9a023d0c3f1877.png",
@@ -26,11 +26,11 @@
     "static/media/purple_heart.svg": "/bookingsystem/static/media/purple_heart.8bb8cef9e22aba935a1fb0ecdca99e2b.svg",
     "static/media/search-icon.svg": "/bookingsystem/static/media/search-icon.f7d1b0149a5137d2a56318898d68fb28.svg",
     "main.51e4a0c1.css.map": "/bookingsystem/static/css/main.51e4a0c1.css.map",
-    "main.8a07b383.js.map": "/bookingsystem/static/js/main.8a07b383.js.map",
+    "main.03cc89ba.js.map": "/bookingsystem/static/js/main.03cc89ba.js.map",
     "453.9b81a340.chunk.js.map": "/bookingsystem/static/js/453.9b81a340.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51e4a0c1.css",
-    "static/js/main.8a07b383.js"
+    "static/js/main.03cc89ba.js"
   ]
 }
