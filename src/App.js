@@ -43,7 +43,7 @@ const App = () => {
     console.log('Opening document:', id);
   };
   return (
-      <BrowserRouter>
+      <BrowserRouter basename='/bookingsystem'>
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
